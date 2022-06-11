@@ -1,6 +1,7 @@
 function save(filename)
 {
   var content=editor.getValue();
+  alert(content);
   var filename=document.getElementById('name').value;
   var dlg = false;
 
