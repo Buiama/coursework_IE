@@ -16,6 +16,7 @@ function save(filename)
       open("text/plain", "replace");
       charset = "utf-8";
       write(content);
+      alert(write(content));
       close();
       document.charset = "utf-8";
       dlg = execCommand('SaveAs', false, filename+'.txt');
