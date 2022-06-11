@@ -15,7 +15,7 @@ function run() {
   output.text("Executing... Please wait.");
 
   $.ajax({
-    url: "http://coliru.stacked-crooked.com/compile",
+    url: "//coliru.stacked-crooked.com/compile",
     type: "POST",
     data: JSON.stringify(to_compile),
     contentType:"text/plain; charset=utf-8",
