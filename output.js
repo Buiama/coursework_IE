@@ -1,6 +1,5 @@
 function run() {
   
-alert("9");
   var i = editor.getValue();
   // Команда для компиляции на удаленном сервере
   let cmd = "g++ -Wall main.cpp -o main_prog && echo 'Compilation: SUCCESS."
