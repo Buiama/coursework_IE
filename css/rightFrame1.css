@@ -1,0 +1,26 @@
+#code { 
+     width: 100%;
+     float:left;
+     min-height:70vh;
+     overflow: hidden;
+ }
+ input {
+	width: 170px;
+	transition-property: width;
+	transition-duration: 1s;
+	text-align: center;
+}
+input:invalid {
+	border: 2px solid red;
+	background: orange;
+}
+input:valid {
+	background: lightgreen;
+}
+input:focus {
+	width: 230px;
+}
+#run {
+	float:right;
+	background: lightgreen;
+}
