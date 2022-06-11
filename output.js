@@ -13,7 +13,7 @@ function run() {
   };
 
   output.text("Executing... Please wait.");
-
+alert("9");
   $.ajax({
     url: "//coliru.stacked-crooked.com/compile",
     type: "POST",
