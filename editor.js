@@ -7,3 +7,4 @@ editor.setOptions({
   fontSize:"12pt",
 });
 editor.$blockScrolling=Infinity;
+alert("runned");
