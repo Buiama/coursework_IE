@@ -16,7 +16,6 @@ alert(content);
       charset = "utf-8";
       alert(content);
       write(content);
-      alert(write(content).value);
       close();
       document.charset = "utf-8";
       alert(document);
