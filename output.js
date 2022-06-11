@@ -1,4 +1,6 @@
 function run() {
+  
+alert("9");
   var i = editor.getValue();
   // Команда для компиляции на удаленном сервере
   let cmd = "g++ -Wall main.cpp -o main_prog && echo 'Compilation: SUCCESS."
@@ -13,7 +15,7 @@ function run() {
   };
 
   output.text("Executing... Please wait.");
-alert("9");
+  
   $.ajax({
     url: "//coliru.stacked-crooked.com/compile",
     type: "POST",
