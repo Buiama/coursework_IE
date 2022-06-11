@@ -16,9 +16,10 @@ alert(content);
       charset = "utf-8";
       alert(content);
       write(content);
-      alert(content);
+      alert(write(content).value);
       close();
       document.charset = "utf-8";
+      alert(document);
       dlg = execCommand('SaveAs', false, filename+'.txt');
     }
 
