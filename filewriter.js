@@ -13,7 +13,7 @@ function save()
     with(getElementById('ifr').contentWindow.document){
       open("text/plain", "replace");
       charset = "utf-8";
-      write(editor.getValue());
+      write(content);
       close();
       document.charset = "utf-8";
       dlg = execCommand('SaveAs', false, filename+'.txt');
